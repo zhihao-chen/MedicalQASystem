@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>智能医疗问答系统MediaQA</title>
+</head>
+<body>
+<div id="name" style="background-color:#00BFFF">
+    <br />
+    <h1 style="text-align:center;color: White">MedicalQASystem</h1>
+    <br />
+</div>
+<div>
+    <div id="question" style="width:100%; padding-left:720px; background-color:#FFFACD">
+        <br/><br/><br/>
+        <form name="input" action="/search/" method="get">
+            <br/><br/>
+            <b>问题：</b>
+            <br/>
+            <textarea name="query" style="height:30px; width:500px"></textarea>
+            <br />
+            <input type="submit" value="搜索" style="color:Green; height: 30px; width:50px"/>
+        </form>
+        <br/>
+        <div id="answer" style="width:606px; padding-bottom:32px">
+            <b>答案：</b>
+            <br/>
+            <textarea name="answer" style="height:300px; width:500px">{{answer}}</textarea>
+        </div>
+    </div>
+</div>
+</body>
+</html>

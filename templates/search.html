@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>问答系统</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"/>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/wd_favicon.ico')}}"/>
+</head>
+<body>
+<div class="htmleaf-container">
+    <div class="wrapper" style="top: 45%;width: 100%;height: 600px;">
+        <div class="container">
+            <form name="input" action="/search/" method="get">
+                <textarea name="query" style="height:30px; width:500px;padding-top:0px;font-size:20px">{{DATA["question"]}}</textarea>
+                <button type="submit" style="height:40px;width:100px">搜索</button>
+                <textarea name="answer" style="height:300px; width:500px;font-size:20px">{{DATA["answer"]}}</textarea>
+            </form>
+        </div>
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+
+<div style="text-align:center;margin:50px 0; font:24px 'MicroSoft YaHei';color:#1E90FF">
+    <h1><i><b>MedicalQASystem</b></i></h1>
+    <br/>
+    <div style="font:18px 'KaiTi_GB2312';color:#9400D3">
+        <b>您好！欢迎您使用本系统！</b>
+        <br/>
+        <b>本系统是一款辅助医疗问答系统，能为您提供大部分疾病、症状方面的参考信息！</b>
+    </div>
+</div>
+</body>
+</html>
