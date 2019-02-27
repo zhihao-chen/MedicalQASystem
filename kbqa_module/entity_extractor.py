@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
-
+"""
+实体抽取和意图识别
+"""
 import os
 import ahocorasick
 from sklearn.externals import joblib
@@ -14,7 +16,7 @@ class EntityExtractor:
         # 路径
         self.vocab_path = os.path.join(cur_dir, 'DATA/vocab.txt')
         self.stopwords_path = os.path.join(cur_dir, 'DATA/stop_words.utf8')
-        self.word2vec_path = os.path.join(cur_dir, 'DATA/merge_sgns_bigram_char300.txt')
+        self.word2vec_path = os.path.join(cur_dir, 'DATA/merge_sgns_bigram_char300.txt') #该词向量文件来自https://github.com/zhihao-chen/Chinese-Word-Vectors
         # self.same_words_path = os.path.join(cur_dir, 'DATA/同义词林.txt')
         self.stopwords = [w.strip() for w in open(self.stopwords_path, 'r', encoding='utf8') if w.strip()]
 
