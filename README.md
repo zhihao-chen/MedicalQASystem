@@ -26,4 +26,4 @@ python app.py
 4. 网页界面不是很美观。哈哈。
 5. 其它的不足想起来了再加.... 
 
- 联系方式：Andrew_czh@163.com
+ 联系方式：andrew_czh@163.com
