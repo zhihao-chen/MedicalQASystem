@@ -6,6 +6,8 @@
 ![系统流程图](https://raw.githubusercontent.com/zhihao-chen/MedicalQASystem/master/img/%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%841.png)
 # 系统效果图 #
 ![系统效果图](https://raw.githubusercontent.com/zhihao-chen/MedicalQASystem/master/img/3.png)
+# 知识图谱结构 #
+![知识图谱结构](https://raw.githubusercontent.com/zhihao-chen/MedicalQASystem/master/img/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1.png)
 # 运行 #
 
 
