@@ -1,7 +1,7 @@
 本系统是一个医疗问答系统，针对全科问题，基于知识图谱和问答对数据库实现的。
 # 系统架构图 #
 
-![系统架构图](https://raw.githubusercontent.com/zhihao-chen/MedicalQASystem/master/img/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![系统架构图](https://raw.githubusercontent.com/zhihao-chen/MedicalQASystem/master/img/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.png)
 # 系统流程图 #
 ![系统流程图](https://raw.githubusercontent.com/zhihao-chen/MedicalQASystem/master/img/%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%841.png)
 # 系统效果图 #
